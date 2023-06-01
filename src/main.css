@@ -11,7 +11,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 18px;
+    font-size: 10px;
     background: url(./background.jpg);
     background-size: cover;
 }
@@ -21,9 +21,9 @@ body {
     max-width: 400px;
     margin: 1rem;
     padding: 2rem;
-    box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0);
     border-radius: var(--border-radius);
-    background: #ffffff;
+    background: transparent;
 }
 
 .container,
@@ -47,6 +47,7 @@ body {
 .form__title {
     margin-bottom: 2rem;
     text-align: center;
+    color: rgb(88, 35, 156);
 }
 
 .form__message {
